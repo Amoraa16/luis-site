@@ -1,0 +1,427 @@
+@media screen and (min-width:1024px){
+    
+.nome{
+    background-color: rgb(102, 11, 129);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(211, 230, 247);
+}
+
+.menu{
+    display: flex;
+    background-color:rgb(155, 54, 185);
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+#divbusca{
+    float: center;
+    padding-right: 0%;
+    background-color: rgb(226, 205, 245);
+    border: solid;
+    border-radius: 15px;
+    width: 600px;
+    margin-right: 650px;
+}
+
+#txtbusca{
+    float:left;
+    background-color:transparent;
+    font-size:10px;
+    border:none;
+    height:30px;
+    width:600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    background-color: rgb(155, 54, 185);
+    border-style: none;
+    color: rgb(211, 230, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(117, 39, 141);
+    border-radius: 15px;
+}
+header{
+    width: 100%;
+    background-color:rgb(102, 11, 129);
+}
+
+#janela{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px;
+    flex-wrap: wrap;
+}
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.p{
+    border: none;
+    background-color: rgb(155, 54, 185) ;
+    color: white;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p:hover{
+    background-color: rgb(117, 39, 141);
+    border-radius: 15px;
+    
+}
+.box{
+    margin-inline-end:20px;
+}
+
+.coluna1{
+    color:rgb(211, 230, 247);   
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.coluna1::-webkit-scrollbar {
+    height: 5px; 
+  }
+  
+  .coluna1::-webkit-scrollbar-track {
+    background: rgb(231, 229, 229);
+    padding: 2px;
+  }
+  
+  .coluna1::-webkit-scrollbar-thumb {
+    background-color:rgb(155, 54, 185) ;
+    border-radius: 80px;
+  }
+  .coluna1::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(117, 39, 141);
+  }
+
+ .venda{
+    background-color: rgba(156, 10, 201, 0.788);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border-radius: 60px;
+    margin-top: 100px;
+ }
+ .venda:hover{
+    background-color: rgba(125, 11, 160, 0.788);
+    font-size: 71px;
+ }
+.fe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    margin-right: 700px;
+    margin-top: 80px;
+}
+#venda{
+    margin-top: -100px;
+    float: right;
+    width: 600px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+   
+.nome{
+    background-color: rgb(102, 11, 129);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(211, 230, 247);
+}
+
+.menu{
+    display: flex;
+    background-color:rgb(155, 54, 185);
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+#divbusca{
+    float: center;
+    padding-right: 0%;
+    background-color: rgb(226, 205, 245);
+    border: solid;
+    border-radius: 15px;
+    width: 600px;
+    margin-right: 650px;
+}
+
+#txtbusca{
+    float:left;
+    background-color:transparent;
+    font-size:10px;
+    border:none;
+    height:30px;
+    width:500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    background-color: rgb(155, 54, 185);
+    border-style: none;
+    color: rgb(211, 230, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(117, 39, 141);
+    border-radius: 15px;
+}
+header{
+    width: 100%;
+    background-color:rgb(102, 11, 129);
+}
+
+#janela{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px;
+    flex-wrap: wrap;
+}
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.p{
+    border: none;
+    background-color: rgb(155, 54, 185) ;
+    color: white;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p:hover{
+    background-color: rgb(117, 39, 141);
+    border-radius: 15px;
+    
+}
+.box{
+    margin-inline-end:20px;
+}
+
+.coluna1{
+    color:rgb(211, 230, 247);   
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.coluna1::-webkit-scrollbar {
+    height: 5px; 
+  }
+  
+  .coluna1::-webkit-scrollbar-track {
+    background: rgb(231, 229, 229);
+    padding: 2px;
+  }
+  
+  .coluna1::-webkit-scrollbar-thumb {
+    background-color:rgb(155, 54, 185) ;
+    border-radius: 80px;
+  }
+  .coluna1::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(117, 39, 141);
+  }
+
+ .venda{
+    background-color: rgba(156, 10, 201, 0.788);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border-radius: 60px;
+    margin-top: 100px;
+ }
+ .venda:hover{
+    background-color: rgba(125, 11, 160, 0.788);
+    font-size: 71px;
+ }
+.fe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    margin-right: 700px;
+    margin-top: 80px;
+}
+#venda{
+    margin-top: -100px;
+    float: right;
+    width: 600px;
+} 
+}
+
+@media screen and (max-width: 767px) {
+    
+.nome{
+    background-color: rgb(102, 11, 129);
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(211, 230, 247);
+}
+
+.menu{
+    display: flex;
+    background-color:rgb(155, 54, 185);
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    flex-wrap: wrap;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+
+#divbusca{
+    float: center;
+    padding-right: 0%;
+    background-color: rgb(226, 205, 245);
+    border: solid;
+    border-radius: 15px;
+    width: 600px;
+    margin-right: 650px;
+}
+
+#txtbusca{
+    float:left;
+    background-color:transparent;
+    font-size:10px;
+    border:none;
+    height:30px;
+    width:180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    background-color: rgb(155, 54, 185);
+    border-style: none;
+    color: rgb(211, 230, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn:hover{
+    background-color: rgb(117, 39, 141);
+    border-radius: 15px;
+}
+header{
+    width: 100%;
+    background-color:rgb(102, 11, 129);
+}
+
+#janela{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 300px;
+    flex-wrap: wrap;
+}
+p{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+
+}
+.p{
+    border: none;
+    background-color: rgb(155, 54, 185) ;
+    color: white;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p:hover{
+    background-color: rgb(117, 39, 141);
+    border-radius: 15px;
+    
+}
+.box{
+    margin-inline-end:20px;
+}
+
+.coluna1{
+    color:rgb(211, 230, 247);   
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.coluna1::-webkit-scrollbar {
+    height: 5px; 
+  }
+  
+  .coluna1::-webkit-scrollbar-track {
+    background: rgb(231, 229, 229);
+    padding: 2px;
+  }
+  
+  .coluna1::-webkit-scrollbar-thumb {
+    background-color:rgb(155, 54, 185) ;
+    border-radius: 80px;
+  }
+  .coluna1::-webkit-scrollbar-thumb:hover{
+    background-color:rgb(117, 39, 141);
+  }
+
+ .venda{
+    background-color: rgba(156, 10, 201, 0.788);
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    border-radius: 60px;
+    margin-top: 100px;
+ }
+ .venda:hover{
+    background-color: rgba(125, 11, 160, 0.788);
+    font-size: 71px;
+ }
+.fe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    margin-right: 700px;
+    margin-top: 80px;
+}
+#venda{
+    margin-top: -100px;
+    float: right;
+    width: 600px;
+} 
+}
+
+
+
+
+body{
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+}
+
